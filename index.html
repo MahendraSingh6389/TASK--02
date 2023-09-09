@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1 style = "font-weight: 200;">Temperature Conversion from Celsius to Fahrenheit & Fahrenheit to Celsius</h1>
+    <div id="P_div" style="background-color: antiquewhite; padding: 10px; border-radius: 30px 30px 10px 10px;"> 
+        <h2 >Temperature Converter</h2>
+        <div id="container">
+            <div class="input_div">
+                <label for="celsius">Celsius:</label><br>
+                <input type="number" value="0" id="cel" class="inp">
+
+            </div>
+            <div class="input_div">
+                <label for="fahrenhiet">Fahrenheit:</label><br>
+                <input type="number" value="32" id="fah" class="inp">
+            </div>
+        </div>
+
+
+        <div id="container2"> 
+            <h3 id="how">How to convert Celsius to Fahrenheit:</h3>
+            <p>0 degrees Celsius is equal to 32 degrees Fahrenheit:</p>
+            <p class="math">0 &deg;C = 32 &deg;F</p>
+            <p>The temperature <i>T</i> in degrees Fahrenheit (&deg;F) is equal to the temperature <i>T</i> in degrees Celsius (&deg;C) times 9/5 plus 32:</p>
+            <p class="math"><i>T</i><sub>(&deg;F)</sub> = <i>T</i><sub>(&deg;C)</sub> &times; 9/5 + 32 </p>
+            <p>or</p>
+            <p class="math"><i>T</i><sub>(&deg;F)</sub> = <i>T</i><sub>(&deg;C)</sub> &times; 1.8 + 32 </p>
+            <h4>Example</h4>
+            <p>Convert 20 degrees Celsius to degrees Fahrenheit:</p>
+            <p class="math"><i>T</i><sub>(&deg;F)</sub> = 20&deg;C &times; 9/5 + 32 = 68 &deg;F</p>
+        </div>   
+
+
+    </div>
+    
+
+<script src="logic.js"></script>
+
+   
+</body>
+</html>
